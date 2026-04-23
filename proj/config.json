@@ -1,0 +1,45 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 11434,
+        "api_key": null
+    },
+    "models": [
+        {
+            "name": "my-model",
+            "model_path": "D:/models/Platypus2-70B-instruct",
+            "compression": null,
+            "hf_token": null,
+            "max_length": 128,
+            "default_max_new_tokens": 200,
+            "layer_shards_saving_path": null,
+            "delete_original": false,
+            "prefetching": true,
+            "enabled": true
+        },
+        {
+            "name": "qwen-7b",
+            "model_path": "D:/models/Qwen-7B",
+            "compression": null,
+            "hf_token": null,
+            "max_length": 128,
+            "default_max_new_tokens": 200,
+            "layer_shards_saving_path": null,
+            "delete_original": false,
+            "prefetching": true,
+            "enabled": false
+        },
+        {
+            "name": "llama-2-7b",
+            "model_path": "D:/models/Llama-2-7b-hf",
+            "compression": null,
+            "hf_token": null,
+            "max_length": 128,
+            "default_max_new_tokens": 200,
+            "layer_shards_saving_path": null,
+            "delete_original": false,
+            "prefetching": true,
+            "enabled": false
+        }
+    ]
+}
